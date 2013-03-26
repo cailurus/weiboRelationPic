@@ -22,3 +22,7 @@
 7.  Enjoy it , fix it
 
 以上为无服务器，无域名，无云时单机模拟的用法，
+
+输入 localhost:8080/weiboRelationPic/Entrance  然后输入uid
+
+![pic](http://i1308.photobucket.com/albums/s607/caorong/syz_zps8be3efd6.png)
