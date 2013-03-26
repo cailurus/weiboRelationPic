@@ -18,4 +18,7 @@
 3.  cookie的获取方法，我是用chrome(chrome其实是个类xnux的多用户环境)，新建个用户(设置-用户)，并在新用户里输入redirurl。
 4.  redirurl的获取，Servlet.Entrance 的第40行 下断点，调试时获取，并将url输进3里，出现一个sina微博的登录授权界面。输入1里的帐号密码。
 5.  chrome里当前user里的设置-高级-内容设置-cookie 有个weibo.com的网站，里面有3个key val，黏贴进2
-6.  
+6.  对Servlet.Entrance 的第50行 下断点，调试时 观察 doc内容是否为你 1里注册时的redirurl的网页源代码，if true  congratulation
+7.  Enjoy it , fix it
+
+以上为无服务器，无域名，无云时单机模拟的用法，
