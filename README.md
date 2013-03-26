@@ -25,4 +25,6 @@
 
 输入 localhost:8080/weiboRelationPic/Entrance  然后输入uid
 
+
+## 图片效果
 ![pic](http://i1308.photobucket.com/albums/s607/caorong/syz_zps8be3efd6.png)
