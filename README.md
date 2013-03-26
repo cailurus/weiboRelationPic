@@ -14,4 +14,8 @@
 1.  在[sina开发](http://open.weibo.com/) 注册 专业版应用，顺便看看[文档](http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2)
 将client_ID，client_SERCRET，redirect_URI，baseURL，填入下载的sdk里的config.properties
 
-2.  获取登录时的cookie 并黏贴进
+2.  获取登录时的cookie 并黏贴进的cookies map的SUE，SUP，SUS里。
+3.  cookie的获取方法，我是用chrome(chrome其实是个类xnux的多用户环境)，新建个用户(设置-用户)，并在新用户里输入redirurl。
+4.  redirurl的获取，Servlet.Entrance 的第40行 下断点，调试时获取，并将url输进3里，出现一个sina微博的登录授权界面。输入1里的帐号密码。
+5.  chrome里当前user里的设置-高级-内容设置-cookie 有个weibo.com的网站，里面有3个key val，黏贴进2
+6.  
